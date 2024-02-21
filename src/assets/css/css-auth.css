@@ -1,0 +1,259 @@
+.flex_row {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.wrap-user {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px 0
+}
+
+.title-user {
+    padding: 10px 10px 15px;
+    text-align: center;
+}
+
+.title-user span {
+    font-size: 30px;
+    color: #2893C8;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+}
+
+.input-user {
+    margin-bottom: 1.25rem;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.input-user label {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.input-user input {
+    border: 1px solid #1eaef9;
+    border-radius: 6px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    background-color: #daf2ff;
+    border-color: #1eaef9;
+    color: #444;
+    width: 100%;
+    height: 42px;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.flex_row.row_gioitinh_ngaysinh {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col_gtns {
+    width: calc(50% - 10px);
+}
+
+.button-user {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.button-user.button-userleft {
+    text-align: left;
+}
+
+.button-user input {
+    border-radius: 6px;
+    height: 54px;
+    font-size: 15px;
+    line-height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    width: auto !important;
+    background-color: #0a7cf7;
+    border-color: #0a7cf7;
+    color: #fff;
+    width: 100% !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.col_gtns.flex_row {
+    justify-content: flex-end;
+}
+
+.custom-control {
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.col_gtns.flex_row a {
+    width: 100%;
+    text-align: right;
+    color: #337ab7;
+}
+
+.checkbox-user input {
+    top: calc(50% - 1.25rem/2);
+    height: auto;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+
+.checkbox-user label {
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.col_gtns label {
+    color: #000;
+}
+
+.note-user {
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    color: #747474;
+}
+
+.note-user a {
+    color: #2b9dff;
+}
+
+.dn-or {
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.dn-or:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.dn-or span {
+    background: #fff;
+    padding: 0 10px;
+    color: #000;
+    font-size: 15px;
+    position: relative;
+}
+
+.dn-social {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.dn-social a {
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 200px;
+    text-align: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.dn-social a.btn-login-with-face {
+    border-color: #1490d1;
+}
+
+.dn-social a.btn-login-with-gg {
+    border-color: red;
+}
+
+.dn-social a.btn-login-with-zalo {
+    border-color: #1490d1;
+}
+
+.dn-social a.btn-login-with-face:hover {
+    background: #bbe3f8;
+    color: #fff;
+    box-shadow: 0px 2px 3px #1490d1;
+}
+
+.dn-social a.btn-login-with-gg:hover {
+    background: #f8bbbb;
+    color: #fff;
+    box-shadow: 0px 2px 3px red;
+}
+
+.dn-social a.btn-login-with-zalo:hover {
+    background: #b3daef;
+    color: #fff;
+    box-shadow: 0px 2px 3px #1490d1;
+}
+
+.dn-social a i {
+    color: #1490d1;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0px 5px 0px 0;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.dn-social a.btn-login-with-face i {
+    color: #0a7cf7;
+}
+
+.dn-social aa.btn-login-with-gg i {
+    color: red;
+}
+
+.dn-social a.btn-login-with-zalo i {
+    color: #1490d1;
+}
+
+.text-transform-none {
+    text-transform: none;
+}
